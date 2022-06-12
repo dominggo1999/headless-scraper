@@ -3,6 +3,9 @@
   "repository": "https://github.com/dominggo1999/headless-scraper",
   "buildpacks": [
     {
+      "url": "ttps://github.com/jontewks/puppeteer-heroku-buildpack.git"
+    },
+    {
       "url": "https://github.com/timanovsky/subdir-heroku-buildpack"
     },
     {
