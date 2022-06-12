@@ -1,0 +1,8 @@
+{
+  "files.exclude": {
+    "client/node_modules/": true,
+    "client/dist/": true,
+    "api/node_modules/": true,
+  },
+  "javascript.preferences.importModuleSpecifierEnding": "js"
+}

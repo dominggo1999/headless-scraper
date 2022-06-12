@@ -1,0 +1,20 @@
+{
+  "name": "mern-monorepo-backend",
+  "repository": "https://github.com/dominggo1999/mern-monorepo",
+  "buildpacks": [
+    {
+      "url": "https://github.com/timanovsky/subdir-heroku-buildpack"
+    },
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "env": {
+    "PROJECT_PATH": {
+      "description": "Backend Code Repository",
+      "required": true,
+      "value": "api"
+    }
+  },
+  "description": "A barebones Node.js app using Express"
+}

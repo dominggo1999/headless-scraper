@@ -1,0 +1,33 @@
+{
+  "name": "@mern-monorepo/api",
+  "main": "api/index.js",
+  "repository": "",
+  "type": "module",
+  "scripts": {
+    "start:serverless": "vercel dev",
+    "start:serverful": "cross-env SERVERFUL=true node api/index.js",
+    "dev": "cross-env SERVERFUL=true nodemon api/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "node-fetch": "^3.2.6",
+    "puppeteer": "^14.3.0",
+    "puppeteer-core": "^14.3.0",
+    "user-agents": "^1.0.1044"
+  },
+  "devDependencies": {
+    "eslint": "^8.17.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "nodemon": "^2.0.16"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}
